@@ -1,0 +1,78 @@
+.navbar,
+#contato {
+    background-color: rgb(0, 0, 165);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(0, 0, 165);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: rgb(128, 128, 255);
+}
+
+.carousel-item img {
+    height: 1100px;
+}
+
+.nav-servicos .nav-link.active {
+    background-color:  rgb(0, 0, 165);
+    color: #fff;
+}
+
+.nav-servicos .nav-link:hover {
+    color:rgb(0, 0, 165);
+}
+
+.text-colored {
+    color: rgb(0, 0, 165);
+}
+
+.text-color {
+    color: #fff;
+}
+
+#contato button {
+    background-color: #fff;
+    color: rgb(0, 0, 165);
+}
+
+.social-links li {
+list-style: none;
+display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width:1024px) {
+    .carousel-item img {
+        height: 700px;
+    }
+}
+
+@media (max-width:768px) {
+    .carousel-item img {
+        height: 550px;
+    }
+
+    .col {
+        display: grid;
+        grid-template-columns: repeat(3, 45%);
+    }
+}
+
+@media (max-width: 426px) {
+    .carousel-item img {
+        height: 285px
+    }
+}

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR   ">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mecanica ATO</title>
+    <link rel= "stylesheet" href= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class= "navbar navbar-expand-lg sticky-top p-3" id= "cabecalho">
+        <div class="container">
+            <h1 class= "navbar-brand m-0 fw-bold">Mecânica ATO</h1>
+            <button class= "navbar-toggler" data-bs-toggle= "collapse" data-bs-target= "#menu-navegacao">
+                <span class= "navbar-toggler-icon"></span>
+            </button>
+            <nav class= "navbar-collapse collapse justify-content-end" id= "menu-navegacao">
+                <ul class= " nav nav-pills d-block d-md-flex text-center">
+                    <li class= "nav-item">
+                        <a href= "#sobre-loja" class= "nav-link fw-bold">
+                            Sobre loja
+                        </a>
+                    </li>
+                    <li class= "nav-item">
+                        <a href= "#servicos" class= "nav-link fw-bold">
+                            Serviços
+                        </a>
+                    </li>
+                    <li class= "nav-item">
+                        <a href= "#contato" class= "nav-link fw-bold">
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy= "scroll" data-bs-target= "cabecalho" data-bs-smooth-scroll= "true">
+        <section id= "sobre-loja">
+            <div class= "carousel slide" data-bs-ride= "carousel" id="carousel">
+                <div class= "carousel-inner">
+                    <div class= "carousel-item  active" data-bs-interval= "3000">
+                        <img src="imagens/slides/slide1.jpg" alt="">
+                    </div>
+                    <div class= "carousel-item " data-bs-interval= "3000">
+                        <img src="imagens/slides/slide2.webp" alt="">
+                    </div>
+                    <div class= "carousel-item " data-bs-interval= "3000">
+                        <img src="imagens/slides/slide3.webp" alt="">
+                    </div>
+                </div>
+                <button class= "carousel-control-prev" type= "button" data-bs-target= "#carousel" data-bs-slide="prev">
+                    <span class= "carousel-control-prev-icon"></span>
+                </button>
+                <button class= "carousel-control-next" type= "button" data-bs-target= "#carousel" data-bs-slide="next">
+                    <span class= "carousel-control-next-icon"></span>
+                </button>
+                <div class= "carousel-indicators">
+                    <button type= "button" data-bs-target= "#carousel" data-bs-slide-to= "0" class= "active"></button>
+                    <button type= "button" data-bs-target= "#carousel" data-bs-slide-to= "1"></button>
+                    <button type= "button" data-bs-target= "#carousel" data-bs-slide-to= "2"></button>
+                </div>
+            </div>
+            <div class= "pt-5 pb-5">
+                <div class= "container">
+                    <div class= "row">
+                        <div class= "col-md-5">
+                            <img class= "d-block w-100 rounded" src="imagens/entrada.jpeg" alt="">
+                        </div>
+                        <div class= "col-md-7 mt-3 mt-md-0">
+                            <h2>Sobre <span class= "text-colored fw-bold">oficina</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo cumque ipsam eveniet rerum enim! Voluptates laudantium beatae labore quos sunt omnis possimus odit excepturi tempora suscipit, facilis aperiam id illum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id= "servicos" class= "pt-5 pb-5">
+            <div class= "container">
+                <div class= "row">
+                    <h2 class= "text-center pb-5 fw-bold">Nossos <span class= "text-colored">serviços</span></h2>
+                </div>
+                <div class= "row">
+                    <aside class= "col-md-2">
+                        <nav class= "nav nav-pills flex-column nav-servicos">
+                            <button type= "button" data-bs-toggle= "tab" data-bs-target= "#carro" class= "nav-link text-colored fw-bold active">Carro</button>
+                            <button type= "button" data-bs-toggle= "tab" data-bs-target= "#moto" class= "nav-link text-colored fw-bold">Moto</button>
+                            <button type= "button" data-bs-toggle= "tab" data-bs-target= "#caminhao" class= "nav-link text-colored fw-bold">Caminhão</button>
+                        </nav>
+                    </aside>
+                    <div class= "col-md-10">
+                        <div class= "tab-content">
+                            <div class= "tab-pane active" id= "carro">
+                                <div class= "row">
+                                    <div class= "col-md-3">
+                                        <img  class= "d-block w-100 h-50" src="imagens/serviços/Carro/alinhamento.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Alinhamento</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/body-kit.jpg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Body kit</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/calibragem.png" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Calibragem</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/Embreagem.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Embreagem</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/Funilaria.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Funilaria</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/Remap.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Remap</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/reparos.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Reparos</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div><div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/revisao-de-freio.jpg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Freios</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div><div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/revisao-veicular.jpg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Revisão</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/Troca-oleo.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center"> Óleo</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Carro/Verificar-agua.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Água</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class= "tab-pane" id= "moto">
+                                <div class= "row">
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/calibragem.png" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Calabragem</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/Criar-escapamento.JPG" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Escapamento</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/Embreagem.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Embreagem</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/Funilaria.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Funilaria</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/lubrificação.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Lubrificação</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/reparos.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Reparos</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/revisao-de-freio.jpg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Freios</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/revisao-veicular.jpg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">revisão</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/troca-de-cabos.jpg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Cabos</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/Moto/Troca-oleo.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Óleo</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class= "tab-pane" id= "caminhao">
+                                <div class= "row">
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/alinhamento.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Alinhamento</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/calibragem.png" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Calibragem</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/Embreagem.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Embreagem</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/embuchamento-eixo.webp" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Eixo</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/Funilaria.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Funilaria</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/reparos.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Reparos</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/revisao-de-freio.jpg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Freios</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/revisao-veicular.jpg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Revisão</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/trem-força.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Trem força</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/Troca-oleo.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Óleo</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/unidade-injetora.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Injetor</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class= "col-md-3">
+                                        <img class= "d-block w-100 h-50" src="imagens/serviços/caminhao/Verificar-agua.jpeg" alt="">
+                                        <h3 class= "text-colored fw-bold text-center">Água</h3>
+                                        <p class= "pb-md-5 pb-lg-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <section id="contato" class= "pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class= "text-center fw-bold text-color">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-5 me-md-5">
+                        <form>
+                            <div>
+                                <label for= "nome" class= "form-label text-color pt-3 fw-bold">Nome:</label>
+                                <input type= "text" class= "form-control" id= "nome">
+                            </div>
+                            <div>
+                                <label for= "email" class= "form-label text-color pt-3 fw-bold">Email:</label>
+                                <input type= "email" class= "form-control" id= "email">
+                            </div>
+                            <div>
+                                <label for= "telefone" class= "form-label text-color pt-3 fw-bold">Telefone:</label>
+                                <input type= "tel" class= "form-control" id= "telefone">
+                            </div>
+                            <div>
+                                <label for= "mensagem" class= "form-label text-color pt-3 fw-bold">Sua mensagem:</label>
+                                <textarea class= "form-control" id="mensagem" ></textarea>
+                            </div>
+                            <button class="btn fw-bold mt-4">Enviar</button>
+                        </form>
+                    </div>
+                    <div class= "col-md-5 mt-md-5">
+                        <div class="row">
+                            <h3 class= "text-color">
+                                <i class= "bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class= "social-links">
+                                <li class= "fs-5">
+                                    <a href="#">
+                                        <i class= "bi bi-facebook text-color"></i>
+                                    </a>
+                                </li>
+                                <li class= "fs-5 ms-3 me-3">
+                                    <a href="#">
+                                        <i class= "bi bi-instagram text-color"></i>
+                                    </a>
+                                </li>
+                                <li class= "fs-5">
+                                    <a href="#">
+                                        <i class= "bi bi-whatsapp text-color"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class= "row">
+                            <h3 class= "text-color">
+                                <i class= "bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p class= "text-color">
+                                Rua Teste exemplo N° 145, Bairro bootstrap - São Paulo - SP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
